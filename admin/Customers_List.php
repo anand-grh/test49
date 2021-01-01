@@ -7,7 +7,7 @@ if (!class_exists('WP_List_Table')) {
 class Customers_List extends WP_List_Table
 {
 
-  /** Class constructor */
+  //** Class constructor */
   public function __construct()
   {
 
