@@ -46,4 +46,5 @@ function save_extra_user_profile_fields( $user_id ) {
 
 add_action( 'personal_options_update', 'save_extra_user_profile_fields' );
 add_action( 'edit_user_profile_update', 'save_extra_user_profile_fields' );
+add_action( 'user_new_form_tag', 'save_extra_user_profile_fields' );
 
